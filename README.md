@@ -5,10 +5,7 @@
 This project implements a data aggregation and ranking framework for research datasets. It combines semantic and non-semantic features to improve search relevance and provides visual analytics and time-series decomposition to understand trends and patterns in the data. It is also easily extendable to other datasets, metrics, or embedding models.
 
 ## Architecture
-User Query
-     |
-     v
-[Metadata Extraction] ---> [Embedding Generation] ---> [Similarity Scorer] ---> [Ranked Results]
+User Query --> [Metadata Extraction] ---> [Embedding Generation] ---> [Similarity Scorer] ---> [Ranked Results] 
                                                   |
                                                   ---> [Visualization & Time-Series Analysis]
 
