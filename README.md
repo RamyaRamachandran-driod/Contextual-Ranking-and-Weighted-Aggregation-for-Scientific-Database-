@@ -15,3 +15,4 @@ This project implements a data aggregation and ranking framework for AstroDB, an
 - **Ranking**: Aggregates 9 metrics into a final ranked list.
 - **Visualization & Time-Series Decomposition**: Provides charts and trend analysis to surface insights from the aggregated data.
 
+<img width="1672" height="941" alt="AstroRank" src="https://github.com/user-attachments/assets/600258e1-0160-428b-82d5-84ca303cf213" />
