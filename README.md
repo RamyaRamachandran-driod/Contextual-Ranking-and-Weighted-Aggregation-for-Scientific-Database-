@@ -7,10 +7,9 @@ This project implements a data aggregation and ranking framework for AstroDB, an
 ## Architecture
 <img width="1672" height="941" alt="AstroRank" src="https://github.com/user-attachments/assets/600258e1-0160-428b-82d5-84ca303cf213" />
 
-## Pipeline Components:
-- **Query Processing & Metadata**: Extracts relevant metadata for weighting and alignment.
-- **Embedding Generation**: Converts text to semantic embeddings (transformer-based).
-- **Similarity Scorer**: Combines embeddings, neural model outputs, and semantic metadata for relevance scoring.
-- **Ranking**: Aggregates 9 metrics into a final ranked list.
-- **Visualization & Time-Series Decomposition**: Provides charts and trend analysis to surface insights from the aggregated data.
+## Impact
 
+The system successfully reordered search results using structured signals, surfacing more authoritative papers that pure semantic search ranked lower. 
+- Achieved consistent convergence with a final validation MSE of 0.0812, demonstrating solid generalization.
+- An adaptive weight-update mechanism further refined feature importance over time, with high-signal features gaining influence and low-signal ones naturally decaying.
+- Applied to astronomical literature, the system derived a confidence-weighted consensus estimate which proved to be very reliable.
