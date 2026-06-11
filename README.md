@@ -5,6 +5,7 @@
 This project implements a data aggregation and ranking framework for AstroDB, an astrophysics research dataset. It combines semantic and non-semantic features to improve search relevance and provides visual analytics and time-series decomposition to understand trends and patterns in the data. It is also easily extendable to other datasets, metrics, or embedding models.
 
 ## Architecture
+![](https://github.com/[RamyaRamachandran-driod]/[C]/blob/[branch]/image.jpg?raw=true)
 
 
 ## Pipeline Components:
